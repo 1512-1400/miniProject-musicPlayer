@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.coverBox{
+    background-image: url(./large_1c5375bd-a805-4da3-8992-0bfdf59078ae.webp);
+    background-position: center;
+    background-size: 100%;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sticky nav bar</title>
+    <link rel="stylesheet" href="./tailwind.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="w-full containerr h-screen flex flex-col justify-around items-center bg-gray-600">
+        <div class="music w-2/5 h-2/3 flex justify-center items-center flex-col relative">
+            <audio class="musicFile" src="http://127.0.0.1:5500/01%20Love%20You%20Like%20a%20Love%20Song.mp3"></audio>
+            <div class="coverBox w-5/12 h-1/2 z-50 absolute top-5 rounded-3xl">
+            </div>
+            <div class="musicBackgroundBox w-6/12 h-2/3 bg-white absolute bottom-10 rounded-3xl">
+                <div class="space w-full h-20 mb-5"></div>
+                <div class="contorolers flex flex-col justify-center items-center pt-10">
+                    <h2 class="musicName text-lg font-bold">set fire</h2>
+                    <p class="ownerName text-md mb-5">adele</p>
+                    <div class="iconsBox w-8/12 flex justify-around items-center">
+                        <img class="previous w-8" src="./icons8-previous-track-26.png" alt="previous">
+                        <img class="play-pause w-10" src="./icons8-play-48.png" alt="play-pause">
+                        <img class="next w-10" src="./icons8-next-track-66.png" alt="next">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
